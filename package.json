@@ -1,0 +1,14 @@
+{
+  "name": "dermaglow-ai-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DermaGlow AI - Professional AI-Powered Hair and Skin Analysis Web Application",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "server": "node server/src/index.js",
+    "server:dev": "node --watch server/src/index.js",
+    "client:dev": "npm run dev --prefix client",
+    "client:build": "npm run build --prefix client",
+    "build": "npm run build --prefix client"
+  }
+}
